@@ -1,0 +1,9 @@
+h1{
+    color:blue;
+    font-size: 100px;
+    @font-face {
+        font-family: quicksand;
+        src: url("C:\Users\Lenovo\Desktop\Quicksand-VariableFont_wght.ttf");
+    }
+
+}
