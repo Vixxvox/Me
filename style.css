@@ -1,9 +1,21 @@
-h1{
-    color:blue;
-    font-size: 100px;
-    @font-face {
-        font-family: quicksand;
-        src: url("C:\Users\Lenovo\Desktop\Quicksand-VariableFont_wght.ttf");
-    }
-
+.header{
+    @import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap);
+    font-family: 'Quicksand', sans-serif;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 400;
+    line-height: 1.58;
+    letter-spacing: -.003em;
+    font-size: 80px;
+    padding: 10px;
+}
+.socials{
+    @import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap);
+    font-family: 'Quicksand', sans-serif;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 40;
+    line-height: 1.58;
+    letter-spacing: -.003em;
+    font-size: 40px;
+    padding: 10px;
+}
 }
