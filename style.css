@@ -1,7 +1,7 @@
 .header{
     @import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap);
     font-family: 'Quicksand', sans-serif;
-    color: rgba(0, 0, 0, 0.8);
+    color: rgba(154, 191, 221, 0.989);
     font-weight: 400;
     line-height: 1.58;
     letter-spacing: -.003em;
@@ -11,11 +11,57 @@
 .socials{
     @import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap);
     font-family: 'Quicksand', sans-serif;
-    color: rgba(0, 0, 0, 0.8);
+    color: rgba(241, 241, 241, 0.8);
     font-weight: 40;
     line-height: 1.58;
     letter-spacing: -.003em;
     font-size: 40px;
     padding: 10px;
 }
+.socials{
+    width: 800px;
+    margin: 90 auto;
+    padding-top: 50px;
+}
+/*
+.twitterIcon{
+    height: 250px;
+    outline: 3px solid rgb(65, 103, 134);
+    background-color: rgb(65, 103, 134);
+    border-radius: 35px;
+}
+.instagramIcon{
+    height: 250px;
+    outline: 3px solid rgb(65, 103, 134);
+    background-color: rgb(65, 103, 134);
+    border-radius: 35px;
+}
+.telegramIcon{
+    height: 250px;
+    outline: 3px solid rgb(65, 103, 134);
+    background-color: rgb(65, 103, 134);
+    border-radius: 35px;
+}*/
+
+
+div.twitter{
+    background-color: 3F4E4F;
+    margin: 10px;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 16px;
+}
+div.instagram{
+    background-color: 3F4E4F;
+    margin: 10px;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 16px;
+}
+div.telegram{
+    background-color: 3F4E4F;
+    margin: 10px;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 16px;
 }
