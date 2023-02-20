@@ -46,6 +46,15 @@ div.socials{
     flex-direction: column;
     justify-content: space-evenly;
 }
+button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
 
 div.twitter{
     text-align-last: left;
@@ -55,30 +64,7 @@ div.twitter{
     border-style: solid;
     border-radius: 16px;
 }
-div.instagram{
-    text-align-last: left;
-    background-color: 3F4E4F;
-    margin: 10px;
-    padding: 10px;
-    border-style: solid;
-    border-radius: 16px;
-}
-div.telegram{
-    text-align-last: left;
-    background-color: 3F4E4F;
-    margin: 10px;
-    padding: 10px;
-    border-style: solid;
-    border-radius: 16px;
-}
-button {
-    background-color: transparent;
-    background-repeat: no-repeat;
-    border: none;
-    cursor: pointer;
-    overflow: hidden;
-    outline: none;
-}
+
 button.twitter{
     @import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap);
     font-family: 'Quicksand', sans-serif;
@@ -91,6 +77,17 @@ button.twitter{
     box-shadow: inset 0 0 0 0 wheat;
     transition: ease-out;
 }
+
+
+div.instagram{
+    text-align-last: left;
+    background-color: 3F4E4F;
+    margin: 10px;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 16px;
+}
+
 button.instagram{
     @import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap);
     font-family: 'Quicksand', sans-serif;
@@ -101,6 +98,17 @@ button.instagram{
     font-size: 40px;
     padding: 10px;
 }
+
+
+div.telegram{
+    text-align-last: left;
+    background-color: 3F4E4F;
+    margin: 10px;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 16px;
+}
+
 button.telegram{
     @import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap);
     font-family: 'Quicksand', sans-serif;
