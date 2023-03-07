@@ -1,6 +1,8 @@
 html{
     background-color: rgb(247, 247, 255);
 }
+
+
 .header{
     @import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap);
     font-family: 'Quicksand', sans-serif;
@@ -11,10 +13,14 @@ html{
     padding: 10px;
     text-align: center;
 }
+
+
 .container{
     @import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap);
+   
     display: flex;
     flex-direction: column;
+
     justify-content: space-evenly;
     font-family: 'Quicksand', sans-serif;
     color: rgba(241, 241, 241, 0.8);
@@ -26,6 +32,8 @@ html{
     font-size: 40px;
     padding: 10px;
 }
+
+
 button {
     background-color: transparent;
     background-repeat: no-repeat;
@@ -48,23 +56,8 @@ button {
 div.socialbutton{
     text-align-last: left;
     background-color: 3F4E4F;
-    margin: 10px;
+    margin: 2%;
     padding: 10px;
     border-style: 1000px black solid;
     border-radius: 16px;
-}
-
-button.twitter{
-    @import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap);
-}
-
-button.instagram{
-    @import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap);
-}
-
-button.telegram{
-    @import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap);
-}
-.iconText {
-    font-weight: 50px;
 }
