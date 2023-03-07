@@ -5,50 +5,26 @@ html{
     @import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap);
     font-family: 'Quicksand', sans-serif;
     color: rgba(154, 191, 221, 0.989);
-    font-weight: 1000;
     line-height: 1;
     letter-spacing: -.003em;
-    font-size: 80px;
+    font-size: 100px;
     padding: 10px;
     text-align: center;
 }
-.socials{
+.container{
     @import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     font-family: 'Quicksand', sans-serif;
     color: rgba(241, 241, 241, 0.8);
     width: 800px;
     margin: 90 auto;
     padding-top: 50px;
-    font-weight: 40;
     line-height: 1.58;
     letter-spacing: -.003em;
     font-size: 40px;
     padding: 10px;
-}
-/*
-.twitterIcon{
-    height: 250px;
-    outline: 3px solid rgb(65, 103, 134);
-    background-color: rgb(65, 103, 134);
-    border-radius: 35px;
-}
-.instagramIcon{
-    height: 250px;
-    outline: 3px solid rgb(65, 103, 134);
-    background-color: rgb(65, 103, 134);
-    border-radius: 35px;
-}
-.telegramIcon{
-    height: 250px;
-    outline: 3px solid rgb(65, 103, 134);
-    background-color: rgb(65, 103, 134);
-    border-radius: 35px;
-}*/
-
-div.socials{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
 }
 button {
     background-color: transparent;
@@ -57,69 +33,38 @@ button {
     cursor: pointer;
     overflow: hidden;
     outline: none;
-}
 
-
-div.twitter{
-    text-align-last: left;
-    background-color: 3F4E4F;
-    margin: 10px;
-    padding: 10px;
-    border-style: solid;
-    border-radius: 16px;
-}
-
-button.twitter{
-    @import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap);
     font-family: 'Quicksand', sans-serif;
     color: rgba(241, 241, 241, 0.8);
-    font-weight: 40;
+    font-size: 3rem;
     line-height: 1.58;
     letter-spacing: -.003em;
-    font-size: 40px;
     padding: 10px;
     box-shadow: inset 0 0 0 0 wheat;
     transition: ease-out;
 }
 
 
-div.instagram{
+div.socialbutton{
     text-align-last: left;
     background-color: 3F4E4F;
     margin: 10px;
     padding: 10px;
-    border-style: solid;
+    border-style: 1000px black solid;
     border-radius: 16px;
+}
+
+button.twitter{
+    @import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap);
 }
 
 button.instagram{
     @import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap);
-    font-family: 'Quicksand', sans-serif;
-    color: rgba(241, 241, 241, 0.8);
-    font-weight: 40;
-    line-height: 1.58;
-    letter-spacing: -.003em;
-    font-size: 40px;
-    padding: 10px;
-}
-
-
-div.telegram{
-    text-align-last: left;
-    background-color: 3F4E4F;
-    margin: 10px;
-    padding: 10px;
-    border-style: solid;
-    border-radius: 16px;
 }
 
 button.telegram{
     @import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap);
-    font-family: 'Quicksand', sans-serif;
-    color: rgba(241, 241, 241, 0.8);
-    font-weight: 40;
-    line-height: 1.58;
-    letter-spacing: -.003em;
-    font-size: 40px;
-    padding: 10px;
+}
+.iconText {
+    font-weight: 50px;
 }
