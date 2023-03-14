@@ -14,7 +14,7 @@ html{
     text-align: center;
 }
 
-
+/*
 .container{
     @import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap);
    
@@ -32,8 +32,22 @@ html{
     font-size: 40px;
     padding: 10px;
 }
+*/
 
+.container{
+    @import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap);
 
+    display:grid;
+    justify-content: center;
+    align-content: center;
+
+    min-height: 100vn;
+    grid-template-columns: repeat(2, 550px);
+}
+.circle{
+    text-align: center;
+    justify-content: center;
+}
 button {
     background-color: transparent;
     background-repeat: no-repeat;
